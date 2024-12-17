@@ -1,7 +1,7 @@
 # Spam-Email-Classification
 The Spam Email Classification system is the implementation of a machine learning based model, specifically using the Naive Bayes classifier, that allows us to categorize input mail as either spam or not spam. The training has been performed on a dataset provided, and implemented using NLTK with Python
 
-# Dataset description. 
+### Dataset description. 
 The dataset used to train the model is the Email Spam Classification Dataset CSV from Kaggle. The dataset contains 5172 rows, with 3002 columns The first column indicates Email name, and the last column has the labels for prediction : 1 for spam, 0 for not spam. The remaining 3000 columns are the 3000 most common words in all the emails, after excluding the non-alphabetical characters/words
 
 # Training the Model
