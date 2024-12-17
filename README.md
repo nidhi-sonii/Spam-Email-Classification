@@ -19,4 +19,6 @@ Confusion Matrix: This summarizes the true positives, true negatives, false posi
 F1 Score: Balances between precision and recall, to show the effectiveness of the model.
 
 ### Using NLTK to preprocess the input email.
+The NLTK (Natural Language Toolkit) library is a Python toolkit used in Natural Language Processing and for tasks like tokenization, stemming, and text classification.
+
 In this step, stop words are removed, and stemming is performed with the use of stemmer to preprocess the input email. After this, the email is broken down into tokens which are then passed into the model for prediction. After passing the tokens through the trained model, it will be able to predict whether the tokens passed into it are spam or not.
