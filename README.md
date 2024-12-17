@@ -10,11 +10,13 @@ Since the dataset provided to us is of a moderate size, it is assumed that Naive
 After training the model, it is used to make predictions. These predictions can be evaluated using the following metrics:
 
 ### Evaluation Metrics:
+Different evaluation metrics can be used to evaluate the model, including the following:
+
 Accuracy: This is the number of correctly classified samples out of the total samples, showing overall model performance.
+
 Confusion Matrix: This summarizes the true positives, true negatives, false positives, and false negatives of a model's predictions to evaluate performance, that is, precision, recall and f1 score.
+
 F1 Score: Balances between precision and recall, to show the effectiveness of the model.
 
 ### Using NLTK to preprocess the input email.
-In this step, stop words are removed, and stemming is performed with the use of stemmer to preprocess the input email. After this, the email is broken down into tokens which are then passed into the model for prediction.
-
-After passing the tokens through the trained model, it will be able to predict whether the tokens passed into it are spam or not
+In this step, stop words are removed, and stemming is performed with the use of stemmer to preprocess the input email. After this, the email is broken down into tokens which are then passed into the model for prediction. After passing the tokens through the trained model, it will be able to predict whether the tokens passed into it are spam or not.
